@@ -11,3 +11,5 @@ def home(requests):
         "movie": movie
     }
     return  render(requests, "index.html", context)
+from django.shortcuts import render
+
